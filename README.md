@@ -11,3 +11,7 @@ Starts the application. It will from the beginning be a simple template where th
 
 ### npm build 
 Build the application and create files ready to deploy in the dist folder.
+
+
+## Authors
+- [Filip Huhta](https://github.com/filiphuhta)
