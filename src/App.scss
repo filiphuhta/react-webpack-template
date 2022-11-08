@@ -1,0 +1,79 @@
+.container {
+  justify-content: center;
+  alignitems: center;
+
+  &-files{
+    margin: 0 auto;
+    font-size: 2.5rem;
+    max-width: 40rem;
+    text-align: center;
+    padding: 2rem;
+  }
+
+  &-github{
+    margin: 0 auto;
+    font-size: 2.0rem;
+    max-width: 40rem;
+    margin-top: 1rem;
+    text-align: center;
+    padding: 2rem;
+    color: rgb(138, 0, 162);
+  }
+
+  @mixin card {
+    margin: 0 auto;
+    max-width: 40rem;
+    height: auto;
+    padding: 4rem;
+  }
+
+  &-start {
+    @include card;
+  
+    background-color: rgba(135, 207, 235, 0.3);
+  }
+  &-app-js {
+    @include card;
+    &__text {
+      font-size: 1.25rem;
+    }
+    &__heading {
+      font-size: 2rem;
+    }
+    margin-top: 1rem;
+    background-color: rgba(255, 242, 2, 0.3);
+  }
+  &-app-scss {
+    @include card;
+    &__text {
+      font-size: 1.25rem;
+    }
+    &__heading {
+      font-size: 2rem;
+    }
+    margin-top: 1rem;
+    background-color: rgba(238, 2, 255, 0.3);
+  }
+  &-index-html {
+    @include card;
+    &__text {
+      font-size: 1.25rem;
+    }
+    &__heading {
+      font-size: 2rem;
+    }
+    margin-top: 1rem;
+    background-color: rgba(255, 2, 2, 0.3);
+  }
+  &-index-js {
+    @include card;
+    &__text {
+      font-size: 1.25rem;
+    }
+    &__heading {
+      font-size: 2rem;
+    }
+    margin-top: 1rem;
+    background-color: rgba(255, 99, 2, 0.3);
+  }
+}
