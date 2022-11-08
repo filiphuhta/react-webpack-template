@@ -10,4 +10,4 @@
 Starts the application. It will from the beginning be a simple template where the starting files is described.
 
 ### npm build 
-Build the application in the dist folder.
+Build the application and create files ready to deploy in the dist folder.
